@@ -15,14 +15,14 @@ Output 1:
     def prevSmaller(self, A):
 		n=len(A)
 		st=[]
-		nge=[-1]*n
+		pse=[-1]*n
 		for i in range(n):
 			while st and st[-1]>=A[i]:
 				st.pop()
 			if st:
-				nge[i]=st[-1]
+				pse[i]=st[-1]
 			st.append(A[i])
-		return nge
+		return pse
 
 ```
 

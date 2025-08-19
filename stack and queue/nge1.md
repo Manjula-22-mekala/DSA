@@ -34,7 +34,5 @@ Explanation: The next greater element for each value of nums1 is as follows:
 
 ```
 
-
-
 ### Time Complexity:O(n)
 ### Space Complexity: O(n)
